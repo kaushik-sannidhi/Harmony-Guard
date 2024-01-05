@@ -7,13 +7,12 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content.js"]
-    }
+      "js": ["content.js"]    }
   ],
   "icons": {
-    "16": "dontgothere16.png",
-    "48": "dontgothere64.png",
-    "128": "dontgothere128.png"
+    "16": "shield16.png",
+    "48": "shield48.png",
+    "128": "shield128.png"
   },
   "action": {
     "default_popup": "popup.html"
