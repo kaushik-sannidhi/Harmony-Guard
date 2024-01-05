@@ -1,0 +1,7 @@
+{
+  "name": "HarmonyGuard",
+  "version": "1.0.0",
+  "dependencies": {
+    "natural": "^6.10.4"
+  }
+}
