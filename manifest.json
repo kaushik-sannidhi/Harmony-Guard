@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Harmony Guard",
+  "version": "1.0",
+  "description": "An extension to censor bad words.",
+  "permissions": ["scripting", "storage", "tabs", "activeTab","browsingData", "unlimitedStorage"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "dontgothere16.png",
+    "48": "dontgothere64.png",
+    "128": "dontgothere128.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
